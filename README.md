@@ -81,4 +81,5 @@ Xe обычно обновляется каждую минуту, так что 
 ![image](https://github.com/QuadDarv1ne/CurrencyConverter/assets/51045274/940baaca-152b-40e5-af7c-9847e289ea00)
 
 > Дата: 12.03.2024
+> 
 > Разработчик: Дуплей Максим Игоревич
