@@ -65,3 +65,9 @@ app = QtWidgets.QApplication([])
 application = CurrencyConv()
 application.show()
 sys.exit(app.exec_())
+
+# TODO: Заметки 📑
+## 🐉 Разработчик: Дуплей Максим Игоревич 🏆
+## 🪪 GitHub профиль: https://github.com/QuadDarv1ne
+## 💎 Telegram группа: «QuadD4rv1n7 & Фишки программиста» 💎
+##    Ссылка: https://t.me/it_baza_znaniy

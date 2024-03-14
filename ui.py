@@ -11,7 +11,7 @@ class Ui_MainWindow(object):
         MainWindow.setFixedSize(480, 755)
         MainWindow.setStyleSheet("background-color:")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
-        self.centralwidget.setStyleSheet("background-color: #faac37;")
+        self.centralwidget.setStyleSheet("background-color: #122c91;") #faac37
         self.centralwidget.setObjectName("centralwidget")
         self.input_amount = QtWidgets.QLineEdit(self.centralwidget)
         self.input_amount.setGeometry(QtCore.QRect(50, 400, 380, 60))
@@ -21,10 +21,10 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.input_amount.setFont(font)
-        self.input_amount.setStyleSheet("background-color: #bfcfff;\n"
+        self.input_amount.setStyleSheet("background-color: #fefcbf;\n"
                                         "border: 2px solid #44fcb3;\n"
                                         "border-radius: 30;\n"
-                                        "color: white;")
+                                        "color: #2a6fdb;")
         self.input_amount.setText("")
         self.input_amount.setAlignment(QtCore.Qt.AlignCenter)
         self.input_amount.setObjectName("input_amount")
@@ -36,10 +36,10 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.output_amount.setFont(font)
-        self.output_amount.setStyleSheet("background-color: #bfcfff;\n"
+        self.output_amount.setStyleSheet("background-color: #fefcbf;\n"
                                          "border: 2px solid #44fcb3;\n"
                                          "border-radius: 30;\n"
-                                         "color: white;")
+                                         "color: #2a6fdb;")
         self.output_amount.setText("")
         self.output_amount.setAlignment(QtCore.Qt.AlignCenter)
         self.output_amount.setObjectName("output_amount")
@@ -91,10 +91,10 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.input_currency.setFont(font)
-        self.input_currency.setStyleSheet("background-color: #bfcfff;\n"
+        self.input_currency.setStyleSheet("background-color: #fefcbf;\n" #bfcfff
                                           "border: 2px solid #44fcb3;\n"
                                           "border-radius: 30;\n"
-                                          "color: white;")
+                                          "color: #2a6fdb;")
         self.input_currency.setText("")
         self.input_currency.setAlignment(QtCore.Qt.AlignCenter)
         self.input_currency.setObjectName("input_currency")
@@ -106,10 +106,10 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.output_currency.setFont(font)
-        self.output_currency.setStyleSheet("background-color: #bfcfff;\n"
+        self.output_currency.setStyleSheet("background-color: #fefcbf;\n" #bfcfff
                                           "border: 2px solid #44fcb3;\n"
                                           "border-radius: 30;\n"
-                                          "color: white;")
+                                          "color: #2a6fdb;")
         self.output_currency.setText("")
         self.output_currency.setAlignment(QtCore.Qt.AlignCenter)
         self.output_currency.setObjectName("output_currency")
